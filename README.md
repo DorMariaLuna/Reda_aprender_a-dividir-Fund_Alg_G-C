@@ -1,2 +1,2 @@
-# c-digos_de_programaci-n-Fund_Alg_G-C
+# codigos_de_programacion_G-C
 Repositorio en colaboración
