@@ -54,3 +54,24 @@ video { display: block;
 
 }
 
+table {
+    display: block;
+    width: 50%;
+    margin-left: 18%;
+    border-collapse: collapse;
+}
+th, td {
+    width: 20%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid rgb(88, 69, 19);  
+    background-color: coral;
+    text-align: center;
+}
+caption {
+    width: 96%;
+    padding: 0.4em;
+    color: ivory;
+    background: peru;
+    text-align: center;
+}
