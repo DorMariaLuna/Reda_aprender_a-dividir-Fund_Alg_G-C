@@ -1,6 +1,6 @@
-*{background-color: aqua;
-
+*{ background-color: aqua;
 }
+
 
 *{ background-color: lavenderblush;
     text-align: justify;
@@ -64,10 +64,16 @@ th, td {
     width: 20%;
     text-align: left;
     vertical-align: top;
-    border: 1px solid rgb(88, 69, 19);  
+    border: 1px solid rgb(88, 69, 19);
     background-color: coral;
     text-align: center;
 }
+
+tr:hover td{
+    background-color: rgb(87, 223, 223);
+    color: white;
+}
+
 caption {
     width: 96%;
     padding: 0.4em;
