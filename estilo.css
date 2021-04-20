@@ -29,6 +29,29 @@ a { background-color: rgb(226, 245, 197);
 
 }
 
+a { background-color: rgb(226, 245, 197);
+    border-color:burlywood; 
+    border-bottom:  1px solid;
+}
+
+a:focus { 
+    background: cyan;
+    border-bottom:  1px solid; 
+}
+
+a:visited {    
+    color: rgb(247, 4, 4);
+}
+
+a:hover {
+    background: rgb(226, 92, 193);
+    border-bottom:  1px solid; 
+}
+
+a:active {
+    color: rgb(9, 172, 150);
+}
+
 h1 { background-color: lightcoral;
     width: 1000px;
     height: 50px;
