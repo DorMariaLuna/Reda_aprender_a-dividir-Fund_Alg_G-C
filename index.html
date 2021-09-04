@@ -18,15 +18,7 @@
 
 <body>
 
-  <script>
-  respuesta=prompt("¿Que dificultad presentas a la hora de dividir? "," " );
-  document.writeln("Mi dificultad es: "+respuesta);
-  </script>
-   
-    
 
-  <header>
-    <br>
     <h1>APRENDER A DIVIDIR</h1></b>
   </header>
 
@@ -36,6 +28,20 @@
       href="materialescomplementarios.html">materiales complementarios</a> | <a href="creditos.html">créditos</a>
   </nav>
   
+  <script>
+    respuesta=prompt("¿Que dificultad presentas a la hora de dividir? "," " );
+    document.writeln("Mi dificultad es: "+respuesta);
+    </script>
+  
+  <br>
+      <script>
+      var date=new Date();var d=date.getDate();var day=(d<10)?'0'+d:d;var m=date.getMonth()+1;var month=(m<10)?'0'+m:m;var yy=date.getYear();var year=(yy<1000)?yy+1900:yy;document.write(day+"/"+month+"/"+year);
+      </script><br>
+      <script>
+      function makeArray(){for(i=0;i<makeArray.arguments.length;i++)this[i+1]=makeArray.arguments[i]}var months=new makeArray('Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre');var date=new Date();var day=date.getDate();var month=date.getMonth()+1;var yy=date.getYear();var year=(yy<1000)?yy+1900:yy;document.write("Hoy es "+day+ " de "+months[month]+" del "+year);
+      </script>
+    <header>
+      <br>
 <br>
   <img src="imagenes/divide.jpeg" width="300" height="200">
 <br>

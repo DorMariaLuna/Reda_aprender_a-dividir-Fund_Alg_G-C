@@ -37,7 +37,21 @@
   <p><mark><b>NOTA:</b> </mark>Practicar las tablas de multiplicar</p>
 
   <br>
+  <p>Aquì podras comporbar si la multiplicacion que hisiste es correcta</p>
 
+    <h2>Calculadora</h2>
+    <input type="text" id="arg1" size="1"> X <input type="text" id="arg2" size="1">
+    <input type="button" value="Calcular!" onclick="calc()"> 
+    <div id="result"></div>
+    <script type="text/javascript">
+    function calc(){
+    var argOne=document.getElementById('arg1').value; 
+    var argTwo=document.getElementById('arg2').value;
+    var ans=(argOne*argTwo); 
+    document.getElementById('result').innerHTML=argOne + ' multiplicado por ' + argTwo + ' es igual a ' + ans;
+    }
+    </script>
+    
   <h1>TABLAS DEL 1 AL 5</h1>
 
   <img src="imagenes/tablas.jpg" width="400" height="300">

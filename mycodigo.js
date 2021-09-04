@@ -7,5 +7,3 @@
 {
   <input type=button value=atras onclick="history.go">
 }
-
-
