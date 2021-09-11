@@ -90,8 +90,7 @@
 <center> 
     <br>
     <h1>evaluación</h1>
-    <hr width="50%" size="15" noshade="noshade" color="greem" >
-      <br>
+    <hr width="100%" size="20" noshade="noshade" color="greem" >
       <table border="5">
             <th>descricipcion</th> 
             <th>valor</th>
@@ -101,18 +100,18 @@
                   digite la pregunta 
                 </td>
                 <td>
-                  <imput type="text" name="preg" id="pregun"
+                  <input type="text" name="preg" id="preg"
                   placeholder="escribe aqui la pregunta"> 
               
                 </td>
                </tr>
+
                <tr> 
                 <td> 
                  digite opcion 1 
                </td>
                <td>
-                 <imput type="text" name="opc 1" id="opc 1"
-                 placeholder="escribe aqui la opcion 1"> 
+              <input type="text" name="opc 1" id="opc 1" placeholder="escribe aqui la opcion 1"> 
              
                </td>
               </tr>
@@ -122,7 +121,7 @@
                  digite opcion 2
                </td>
                <td>
-                 <imput type="text" name="opc 2" id="opc 2"
+                 <input type="text" name="opc 2" id="opc 2"
                  placeholder="escribe aqui la opcion 2"> 
              
                </td>
@@ -133,7 +132,7 @@
                  digite opcion 3
                </td>
                <td>
-                 <imput type="text" name="opc 3" id="opc 3"
+                 <input type="text" name="opc 3" id="opc 3"
                  placeholder="escribe aqui la opcion 3"> 
              
                </td>
@@ -144,7 +143,7 @@
                  digite opcion 4
                </td>
                <td>
-                 <imput type="text" name="opc 4" id="opc 4"
+                 <input type="text" name="opc 4" id="opc 4"
                  placeholder="escribe aqui la opcion 4"> 
              
                </td>
@@ -155,7 +154,7 @@
                  digite opcion 5
                </td>
                <td>
-                 <imput type="text" name="opc 5" id="opc 5"
+                 <input type="text" name="opc 5" id="opc 5"
                  placeholder="escribe aqui la opcion 5"> 
              
                </td>
@@ -163,19 +162,41 @@
 
               <tr> 
                 <td> 
-                 digiste la respuesta correcta 
+                 digite la respuesta correcta 
                </td>
                <td>
-                 <imput type="text" name="resC" id="RC"
-                 placeholder="escribe aqui la respuesta correcta"> 
+                 <input type="text" name="RC" id="RC"
+                 placeholder="escribe respuesta correcta"> 
              
                </td>
               </tr>
 
             </tbody>
+
+     </table>
+
+     <table border="5" class="cambio">  
+        <tr>
+          <td>
+            <button onclick="guardar pregunta" ()>enviar</button>
+          </td>
+        </tr> 
+       </table>
+      <br>
+      <h3>listado de preguntas guardadas</h3>
+      <table border="5">
+        <th>pregunta</th> 
+        <th>opcion 1</th> 
+        <th>opcion 2</th> 
+        <th>opcion 3</th> 
+        <th>opcion 4</th> 
+        <th>opcion 5</th> 
+        <th>respuesta correcta</th> 
+        <th>respuesta estudiante</th>
+        <tbody id="tronco">
       </table>
     </center>
-    
+    <script> src="mycodigo.js" </script>
     <footer>
         <p>&#169;2021 todos los derechos reservados</p>
       </footer>

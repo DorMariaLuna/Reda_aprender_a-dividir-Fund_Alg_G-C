@@ -105,3 +105,9 @@ caption {
     text-align: center;
 }
 
+ .cambio {
+    display: block;
+    width: 18%;
+    margin-left: 5%;
+    border-collapse: collapse;
+}

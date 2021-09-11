@@ -14,25 +14,38 @@
   <input type=button value=atras onclick="history.go">
 }
 
-<center> 
-<br>
-<h1>evaluación</h1>
-<hr width="50%" size="15" noshade="noshade" color="greem" >
-  <br>
-  <table border="5">
-        <th>descricipcion</th> 
-        <th>valor</th>
-        <tbody> 
-           <tr> 
-             <td> 
-              digite la pregunta 
-            </td>
-            <td>
-              <imput type="text" name="preg" id="pregun"
-              placeholder="escribe aqui la pregunta"> 
-          
-            </td>
-           </tr>
-        </tbody>
-  </table>
-</center>
+
+{
+var preguntas=object();
+var salida='';
+function guardar pregunta(){  
+  preguntas.preg= document.getElementById('preg').value;
+  preguntas.opc1= document.getElementById('opc 1').value;
+  preguntas.opc2= document.getElementById('opc 2').value;
+  preguntas.opc3= document.getElementById('opc 3').value;
+  preguntas.opc4= document.getElementById('opc 4').value;
+  preguntas.opc5= document.getElementById('opc 5').value;
+  preguntas.RC= document.getElementById('RC').value;
+  preguntas.RE=' ';
+  listadospreguntas();
+  limpiarcajas
+}
+
+function limpiarcajas(){ 
+   document.getElementById('preg').value='';
+   document.getElementById('opc 1').value='';
+   document.getElementById('opc 2').value='';
+   document.getElementById('opc 3').value='';
+   document.getElementById('opc 4').value='';
+   document.getElementById('opc 5').value='';
+   document.getElementById('RC').value='';
+   document.getElementById('preg').focus();
+}
+
+function listadospreguntas(){
+      salida+='<tr> <td>'+
+ }
+
+
+
+}
