@@ -88,114 +88,109 @@
 <Pre><p>https://share.nearpod.com/6kA2Psfkoab</p><Pre></Pre>
 
 <center> 
-    <br>
-    <h1>evaluación</h1>
-    <hr width="100%" size="20" noshade="noshade" color="greem" >
-      <table border="5">
-            <th>descricipcion</th> 
-            <th>valor</th>
-            <tbody> 
-               <tr> 
-                 <td> 
-                  digite la pregunta 
-                </td>
-                <td>
-                  <input type="text" name="preg" id="preg"
-                  placeholder="escribe aqui la pregunta"> 
-              
-                </td>
-               </tr>
+  <br>
+  <h1>Evaluación</h1>
+  <hr width="100%" size="20" noshade="noshade" color="greem" >
+    <table border="5">
+          <th>Descricipcion</th> 
+          <th>Pregunta</th>
+          <tbody> 
+             <tr> 
+               <td> 
+                Digite la pregunta 
+              </td>
+              <td>
+                <input type="text" name="prg" id="prg"
+                placeholder="escribe aqui la pregunta"> 
+            
+              </td>
+             </tr>
 
-               <tr> 
-                <td> 
-                 digite opcion 1 
-               </td>
-               <td>
-              <input type="text" name="opc 1" id="opc 1" placeholder="escribe aqui la opcion 1"> 
-             
-               </td>
-              </tr>
+             <tr> 
+              <td> 
+               Digite opcion 1
+             </td>
+             <td>
+               <input type="text" name="opc1" id="opc1"
+               placeholder="escribe aqui la opcion 1"> 
+           
+             </td>
+            </tr>
 
-              <tr> 
-                <td> 
-                 digite opcion 2
-               </td>
-               <td>
-                 <input type="text" name="opc 2" id="opc 2"
-                 placeholder="escribe aqui la opcion 2"> 
-             
-               </td>
-              </tr>
+            <tr> 
+              <td> 
+               Digite opcion 2
+             </td>
+             <td>
+               <input type="text" name="opc2" id="opc2"
+               placeholder="escribe aqui la opcion 2"> 
+           
+             </td>
+            </tr>
 
-              <tr> 
-                <td> 
-                 digite opcion 3
-               </td>
-               <td>
-                 <input type="text" name="opc 3" id="opc 3"
-                 placeholder="escribe aqui la opcion 3"> 
-             
-               </td>
-              </tr>
+            <tr> 
+              <td> 
+               Digite opcion 3
+             </td>
+             <td>
+               <input type="text" name="opc3" id="opc3"
+               placeholder="escribe aqui la opcion 3"> 
+           
+             </td>
+            </tr>
 
-              <tr> 
-                <td> 
-                 digite opcion 4
-               </td>
-               <td>
-                 <input type="text" name="opc 4" id="opc 4"
-                 placeholder="escribe aqui la opcion 4"> 
-             
-               </td>
-              </tr>
+            <tr> 
+              <td> 
+               Digite opcion 4
+             </td>
+             <td>
+               <input type="text" name="opc4" id="opc4"
+               placeholder="escribe aqui la opcion 4"> 
+           
+             </td>
+            </tr>
 
-              <tr> 
-                <td> 
-                 digite opcion 5
-               </td>
-               <td>
-                 <input type="text" name="opc 5" id="opc 5"
-                 placeholder="escribe aqui la opcion 5"> 
-             
-               </td>
-              </tr>
+            <tr> 
+              <td> 
+               Digite respuesta correcta
+             </td>
+             <td>
+               <input type="text" name="respC" id="respC"
+               placeholder="escribe respuesta correcta"> 
+           
+             </td>
+            </tr>
 
-              <tr> 
-                <td> 
-                 digite la respuesta correcta 
-               </td>
-               <td>
-                 <input type="text" name="RC" id="RC"
-                 placeholder="escribe respuesta correcta"> 
-             
-               </td>
-              </tr>
 
-            </tbody>
+          </tbody>
 
+   </table>
+
+   <table border="5">  
+      <tr>
+        <td>
+          <button onclick="guardarPregunta()">enviar</button>
+        </td>
+      </tr> 
      </table>
+    <br>
+    <h3>
+        Listado de preguntas guardadas
+    </h3>
+    <br>
+    <table border="5">
+      <th>Pregunta</th>
+      <th>Opcion 1</th>
+      <th>Opcion 2</th>
+      <th>Opcion 3</th>
+      <th>Opcion 4</th>
+      <th>Respuesta Correcta</th>
+      <th>Respuesta Estudiante</th>
+      <tbody id="cuerpo">
 
-     <table border="5" class="cambio">  
-        <tr>
-          <td>
-            <button onclick="guardar pregunta" ()>enviar</button>
-          </td>
-        </tr> 
-       </table>
-      <br>
-      <h3>listado de preguntas guardadas</h3>
-      <table border="5">
-        <th>pregunta</th> 
-        <th>opcion 1</th> 
-        <th>opcion 2</th> 
-        <th>opcion 3</th> 
-        <th>opcion 4</th> 
-        <th>opcion 5</th> 
-        <th>respuesta correcta</th> 
-        <th>respuesta estudiante</th>
-        <tbody id="tronco">
-      </table>
-    </center>
+      </tbody>
+    </table>
+
     <script> src="mycodigo.js" </script>
     <footer>
         <p>&#169;2021 todos los derechos reservados</p>
